@@ -1,4 +1,11 @@
+using Confitec.Infraestrutura.Data.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var connection = builder.Configuration["SqlserverConnection:SqlserverConnectionString"];
+
+builder.Services.AddDbContext<SQLServerContext>(options => options.UseSqlServer(connection));
 
 // Add services to the container.
 
