@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ynykrt/cLV9L1NCXgzFnnwrUGDtYmulheFcBXTnhFFjK9nbSLvw8xBzkkVHRXzRgsc8ZH+HixOObeBiH+XM62A==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Dominio\\Confitec.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jeffe\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\jeffe\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

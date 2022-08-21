@@ -4,14 +4,14 @@
     "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj": {
+    "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Dominio\\Confitec.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj",
-        "projectName": "Confitec.Infraestrutura",
-        "projectPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj",
+        "projectUniqueName": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Dominio\\Confitec.Dominio.csproj",
+        "projectName": "Confitec.Dominio",
+        "projectPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Dominio\\Confitec.Dominio.csproj",
         "packagesPath": "C:\\Users\\jeffe\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\obj\\",
+        "outputPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,80 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj",
+        "projectName": "Confitec.Infraestrutura",
+        "projectPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj",
+        "packagesPath": "C:\\Users\\jeffe\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jeffe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Dominio\\Confitec.Dominio.csproj": {
+                "projectPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Dominio\\Confitec.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.8, )"

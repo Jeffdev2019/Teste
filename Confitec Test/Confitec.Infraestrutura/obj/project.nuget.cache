@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dkwtM8QryCRYkXhp4WQ2FZJIy6D2d1r2iRKFQIRBxNqKo3QMacTsy6Xxt6puQNUEiVkHXoWtf4qPazGPZAs6Og==",
+  "dgSpecHash": "y0mMg2OLKUi1rQvhQL7US1yiBiY+YaLi0nhzwKoeqc8hxkTfhbHcldQpPXqOvn0Wkdzcf4OrEsHUJrIcE0CDrg==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jeffe\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\jeffe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\jeffe\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

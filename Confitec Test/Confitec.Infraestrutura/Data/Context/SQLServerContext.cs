@@ -14,8 +14,8 @@ namespace Confitec.Infraestrutura.Data.Context
 
         public SQLServerContext(DbContextOptions<SQLServerContext> options) : base(options) { }
 
-        public DbSet<Usuario> usuario { get; set; }
-        public DbSet<HistoricoEscolar> historicoEscolar { get; set; }
-        public DbSet<Escolaridade> escolaridade { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<HistoricoEscolar> HistoricoEscolar { get; set; }
+        public DbSet<Escolaridade> Escolaridade { get; set; }
     }
 }

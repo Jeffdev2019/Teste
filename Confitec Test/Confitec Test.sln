@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confitec Test", "Confitec T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confitec.Infraestrutura", "Confitec.Infraestrutura\Confitec.Infraestrutura.csproj", "{F670CC97-4489-4AB5-8D3C-E140F73ACC9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confitec.Dominio", "Confitec.Dominio\Confitec.Dominio.csproj", "{CA2477EA-E064-464A-B65C-59A85DB0C037}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F670CC97-4489-4AB5-8D3C-E140F73ACC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F670CC97-4489-4AB5-8D3C-E140F73ACC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F670CC97-4489-4AB5-8D3C-E140F73ACC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2477EA-E064-464A-B65C-59A85DB0C037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2477EA-E064-464A-B65C-59A85DB0C037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2477EA-E064-464A-B65C-59A85DB0C037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2477EA-E064-464A-B65C-59A85DB0C037}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
