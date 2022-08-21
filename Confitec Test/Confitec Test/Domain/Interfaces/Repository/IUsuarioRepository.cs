@@ -10,7 +10,7 @@ namespace Confitec.WebAPI.Domain.Interfaces.Repository
     public interface IUsuarioRepository
     {
         Task<IEnumerable<UsuarioVO>> FindAll();
-        Task<UsuarioVO> FindById(int id);
+        UsuarioVO FindById(int id);
         Task<UsuarioVO> Create(UsuarioVO vo);
         Task<UsuarioVO> Update(UsuarioVO vo);
         Task<bool> Delete(int id);

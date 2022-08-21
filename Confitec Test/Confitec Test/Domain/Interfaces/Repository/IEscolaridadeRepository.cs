@@ -10,7 +10,7 @@ namespace Confitec.WebAPI.Domain.Interfaces.Repository
     public interface IEscolaridadeRepository
     {
         Task<IEnumerable<EscolaridadeVO>> FindAll();
-        Task<EscolaridadeVO> FindById(int id);
+        EscolaridadeVO FindById(int id);
         Task<EscolaridadeVO> Create(EscolaridadeVO vo);
         Task<EscolaridadeVO> Update(EscolaridadeVO vo);
         Task<bool> Delete(int id);

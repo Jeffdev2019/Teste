@@ -23,7 +23,7 @@ namespace Confitec_Test.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<EscolaridadeVO>> FindById(int id)
         {
-            var escolaridade = await _escolaridadeRepository.FindById(id);
+            var escolaridade =  _escolaridadeRepository.FindById(id);
             if (escolaridade == null) return NotFound();
 
             return Ok(escolaridade);

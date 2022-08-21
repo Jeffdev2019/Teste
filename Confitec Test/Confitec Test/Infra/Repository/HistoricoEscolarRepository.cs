@@ -31,7 +31,7 @@ namespace Confitec.WebAPI.Infra.Repository
             try
             {
                 HistoricoEscolar historicoEscolar =
-                await _context.HistoricoEscolar.Where(p => p.Id == id)
+                await _context.HistoricoEscolar.Where(p => p.IdHistoricoEscolar == id)
                 .FirstOrDefaultAsync();
 
                 if (historicoEscolar == null) return false;
@@ -53,11 +53,11 @@ namespace Confitec.WebAPI.Infra.Repository
             return _mapper.Map<List<HistoricoEscolarVO>>(historicoEscolar);
         }
 
-        public async Task<HistoricoEscolarVO> FindById(int id)
+        public HistoricoEscolarVO FindById(int id)
         {
             HistoricoEscolar historicoEscolar =
-                await _context.HistoricoEscolar.Where(p => p.Id == id)
-                .FirstOrDefaultAsync();
+                 _context.HistoricoEscolar.Where(p => p.IdHistoricoEscolar == id)
+                .FirstOrDefault();
             return _mapper.Map<HistoricoEscolarVO>(historicoEscolar);
         }
 

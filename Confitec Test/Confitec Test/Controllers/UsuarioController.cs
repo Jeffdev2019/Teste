@@ -8,22 +8,32 @@ namespace Confitec_Test.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private IUsuarioRepository IUsuarioRepository;
-        public UsuarioController(IUsuarioRepository UsuarioRepository)
+        private IUsuarioRepository _IUsuarioRepository;
+        private IHistoricoEscolarRepository _IHistoricoEscolarRepository;
+        private IEscolaridadeRepository _IEscolaridadeRepository;
+        public UsuarioController(IUsuarioRepository UsuarioRepository, IHistoricoEscolarRepository HistoricoEscolarRepository, IEscolaridadeRepository IEscolaridadeRepository)
         {
-            IUsuarioRepository = UsuarioRepository;
+            _IUsuarioRepository = UsuarioRepository;
+            _IHistoricoEscolarRepository = HistoricoEscolarRepository;
+            _IEscolaridadeRepository = IEscolaridadeRepository;
         }
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UsuarioVO>>> FindAll()
         {
-            var user = await IUsuarioRepository.FindAll();
+            var user = await _IUsuarioRepository.FindAll();
+            user.ToList().ForEach(async a => 
+            {
+                a.Escolaridade =  _IEscolaridadeRepository.FindById(a.EscolaridadeId);
+                a.HistoricoEscolar =  _IHistoricoEscolarRepository.FindById(a.HistoricoEscolarId);
+            });
+            await Task.Delay(50);
             return Ok(user);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<UsuarioVO>> FindById(int id)
         {
-            var user = await IUsuarioRepository.FindById(id);
+            var user = _IUsuarioRepository.FindById(id);
             if (user == null) return NotFound();
 
             return Ok(user);
@@ -33,21 +43,21 @@ namespace Confitec_Test.Controllers
         public async Task<ActionResult<UsuarioVO>> Create(UsuarioVO vo)
         {
             if (vo == null) return BadRequest();
-            var user = await IUsuarioRepository.Create(vo);
+            var user = await _IUsuarioRepository.Create(vo);
             return Ok(user);
         }
 
         public async Task<ActionResult<UsuarioVO>> Update(UsuarioVO vo)
         {
             if (vo == null) return BadRequest();
-            var user = await IUsuarioRepository.Update(vo);
+            var user = await _IUsuarioRepository.Update(vo);
             return Ok(user);
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var status = await IUsuarioRepository.Delete(id);
+            var status = await _IUsuarioRepository.Delete(id);
             if (!status) return BadRequest();
             return Ok(status);
         }

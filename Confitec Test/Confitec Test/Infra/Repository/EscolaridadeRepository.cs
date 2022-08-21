@@ -31,7 +31,7 @@ namespace Confitec.WebAPI.Infra.Repository
             try
             {
                 Escolaridade escolaridade =
-                await _context.Escolaridade.Where(p => p.Id == id)
+                await _context.Escolaridade.Where(p => p.IdEscolaridade == id)
                 .FirstOrDefaultAsync();
 
                 if (escolaridade == null) return false;
@@ -53,11 +53,11 @@ namespace Confitec.WebAPI.Infra.Repository
             return _mapper.Map<List<EscolaridadeVO>>(escolaridade);
         }
 
-        public async Task<EscolaridadeVO> FindById(int id)
+        public EscolaridadeVO FindById(int id)
         {
             Escolaridade escolaridade =
-                await _context.Escolaridade.Where(p => p.Id == id)
-                .FirstOrDefaultAsync();
+                 _context.Escolaridade.Where(p => p.IdEscolaridade == id)
+                .FirstOrDefault();
             return _mapper.Map<EscolaridadeVO>(escolaridade);
         }
 

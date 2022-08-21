@@ -32,7 +32,7 @@ namespace Confitec.WebAPI.Infra.Repository
             try
             {
                 Usuario usuario =
-                await _context.Usuario.Where(p => p.Id == id)
+                await _context.Usuario.Where(p => p.IdUsuario == id)
                 .FirstOrDefaultAsync();
 
                 if (usuario == null) return false;
@@ -54,11 +54,11 @@ namespace Confitec.WebAPI.Infra.Repository
             return _mapper.Map<List<UsuarioVO>>(usuario);
         }
 
-        public async Task<UsuarioVO> FindById(int id)
+        public UsuarioVO FindById(int id)
         {
             Usuario usuario =
-                await _context.Usuario.Where(p => p.Id == id)
-                .FirstOrDefaultAsync();
+                _context.Usuario.Where(p => p.IdUsuario == id)
+                .FirstOrDefault();
             return _mapper.Map<UsuarioVO>(usuario);
         }
 

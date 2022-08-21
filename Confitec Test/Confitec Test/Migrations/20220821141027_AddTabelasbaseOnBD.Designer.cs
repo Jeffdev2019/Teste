@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Confitec_Test.Migrations
 {
     [DbContext(typeof(SQLServerContext))]
-    [Migration("20220821045857_AddTabelasbaseOnDB")]
-    partial class AddTabelasbaseOnDB
+    [Migration("20220821141027_AddTabelasbaseOnBD")]
+    partial class AddTabelasbaseOnBD
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -26,29 +26,51 @@ namespace Confitec_Test.Migrations
 
             modelBuilder.Entity("Confitec.WebAPI.Infra.Data.Model.Escolaridade", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdEscolaridade")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdEscolaridade"), 1L, 1);
 
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdEscolaridade");
 
                     b.ToTable("TbEscolaridade");
+
+                    b.HasData(
+                        new
+                        {
+                            IdEscolaridade = 1,
+                            Descricao = "Infantil"
+                        },
+                        new
+                        {
+                            IdEscolaridade = 2,
+                            Descricao = "Fundamental"
+                        },
+                        new
+                        {
+                            IdEscolaridade = 3,
+                            Descricao = "Médio"
+                        },
+                        new
+                        {
+                            IdEscolaridade = 4,
+                            Descricao = "Superior"
+                        });
                 });
 
             modelBuilder.Entity("Confitec.WebAPI.Infra.Data.Model.HistoricoEscolar", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdHistoricoEscolar")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdHistoricoEscolar"), 1L, 1);
 
                     b.Property<string>("Formato")
                         .IsRequired()
@@ -60,18 +82,18 @@ namespace Confitec_Test.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdHistoricoEscolar");
 
                     b.ToTable("TbHistoricoEscolar");
                 });
 
             modelBuilder.Entity("Confitec.WebAPI.Infra.Data.Model.Usuario", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdUsuario")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdUsuario"), 1L, 1);
 
                     b.Property<DateTime>("DataNascimento")
                         .HasColumnType("datetime2");
@@ -81,16 +103,10 @@ namespace Confitec_Test.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<int?>("EscolaridadeId")
+                    b.Property<int>("EscolaridadeId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("HistoricoEscolarId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdEscolaridade")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdHistoricoEscolar")
+                    b.Property<int>("HistoricoEscolarId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
@@ -103,7 +119,7 @@ namespace Confitec_Test.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdUsuario");
 
                     b.HasIndex("EscolaridadeId");
 
@@ -114,23 +130,31 @@ namespace Confitec_Test.Migrations
 
             modelBuilder.Entity("Confitec.WebAPI.Infra.Data.Model.Usuario", b =>
                 {
-                    b.HasOne("Confitec.WebAPI.Infra.Data.Model.Escolaridade", null)
-                        .WithMany("Usuario")
-                        .HasForeignKey("EscolaridadeId");
+                    b.HasOne("Confitec.WebAPI.Infra.Data.Model.Escolaridade", "Escolaridade")
+                        .WithMany("Usuarios")
+                        .HasForeignKey("EscolaridadeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("Confitec.WebAPI.Infra.Data.Model.HistoricoEscolar", null)
-                        .WithMany("Usuario")
-                        .HasForeignKey("HistoricoEscolarId");
+                    b.HasOne("Confitec.WebAPI.Infra.Data.Model.HistoricoEscolar", "Historico")
+                        .WithMany("Usuarios")
+                        .HasForeignKey("HistoricoEscolarId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Escolaridade");
+
+                    b.Navigation("Historico");
                 });
 
             modelBuilder.Entity("Confitec.WebAPI.Infra.Data.Model.Escolaridade", b =>
                 {
-                    b.Navigation("Usuario");
+                    b.Navigation("Usuarios");
                 });
 
             modelBuilder.Entity("Confitec.WebAPI.Infra.Data.Model.HistoricoEscolar", b =>
                 {
-                    b.Navigation("Usuario");
+                    b.Navigation("Usuarios");
                 });
 #pragma warning restore 612, 618
         }

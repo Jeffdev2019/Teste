@@ -20,10 +20,37 @@ namespace Confitec.WebAPI.Infra.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Escolaridade>().HasData(new Escolaridade { Id = 1, Descricao = "Infantil" });
-            modelBuilder.Entity<Escolaridade>().HasData(new Escolaridade { Id = 2, Descricao = "Fundamental" });
-            modelBuilder.Entity<Escolaridade>().HasData(new Escolaridade { Id = 3, Descricao = "Médio" });
-            modelBuilder.Entity<Escolaridade>().HasData(new Escolaridade { Id = 4, Descricao = "Superior" });
+
+            modelBuilder.Entity<Escolaridade>(a =>
+            {
+                a.HasKey(E => E.IdEscolaridade);
+                a.Property (E => E.IdEscolaridade).UseIdentityColumn();
+                a.HasData(new Escolaridade { IdEscolaridade = 1, Descricao = "Infantil" });
+                a.HasData(new Escolaridade { IdEscolaridade = 2, Descricao = "Fundamental" });
+                a.HasData(new Escolaridade { IdEscolaridade = 3, Descricao = "Médio" });
+                a.HasData(new Escolaridade { IdEscolaridade = 4, Descricao = "Superior" });
+            });
+
+
+            modelBuilder.Entity<Usuario>(a =>
+            {
+                a.HasKey(E => E.IdUsuario);
+                a.Property(E => E.IdUsuario).UseIdentityColumn();
+                a.HasOne(e => e.Escolaridade)
+                    .WithMany(z => z.Usuarios)
+                    .HasForeignKey(f => f.EscolaridadeId);
+                a.HasOne(e => e.Historico)
+                    .WithMany(z => z.Usuarios)
+                    .HasForeignKey(f => f.HistoricoEscolarId);
+            });
+
+            modelBuilder.Entity<HistoricoEscolar>(a =>
+            {
+                a.HasKey(E => E.IdHistoricoEscolar);
+                a.Property(E => E.IdHistoricoEscolar).UseIdentityColumn();
+            });
+
+
         }
     }
 }

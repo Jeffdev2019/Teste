@@ -23,7 +23,7 @@ namespace Confitec_Test.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<HistoricoEscolarVO>> FindById(int id)
         {
-            var historico = await _historicoEscolarRepository.FindById(id);
+            var historico =  _historicoEscolarRepository.FindById(id);
             if (historico == null) return NotFound();
 
             return Ok(historico);

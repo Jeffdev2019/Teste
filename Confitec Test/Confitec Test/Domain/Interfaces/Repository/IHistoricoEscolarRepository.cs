@@ -10,7 +10,7 @@ namespace Confitec.WebAPI.Domain.Interfaces.Repository
     public interface IHistoricoEscolarRepository
     {
         Task<IEnumerable<HistoricoEscolarVO>> FindAll();
-        Task<HistoricoEscolarVO> FindById(int id);
+        HistoricoEscolarVO FindById(int id);
         Task<HistoricoEscolarVO> Create(HistoricoEscolarVO vo);
         Task<HistoricoEscolarVO> Update(HistoricoEscolarVO vo);
         Task<bool> Delete(int id);
