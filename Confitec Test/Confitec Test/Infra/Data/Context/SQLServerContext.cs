@@ -24,7 +24,7 @@ namespace Confitec.WebAPI.Infra.Data.Context
             modelBuilder.Entity<Escolaridade>(a =>
             {
                 a.HasKey(E => E.IdEscolaridade);
-                a.Property (E => E.IdEscolaridade).UseIdentityColumn();
+                a.Property(E => E.IdEscolaridade).UseIdentityColumn(1, 1);
                 a.HasData(new Escolaridade { IdEscolaridade = 1, Descricao = "Infantil" });
                 a.HasData(new Escolaridade { IdEscolaridade = 2, Descricao = "Fundamental" });
                 a.HasData(new Escolaridade { IdEscolaridade = 3, Descricao = "Médio" });
@@ -35,7 +35,7 @@ namespace Confitec.WebAPI.Infra.Data.Context
             modelBuilder.Entity<Usuario>(a =>
             {
                 a.HasKey(E => E.IdUsuario);
-                a.Property(E => E.IdUsuario).UseIdentityColumn();
+                a.Property(E => E.IdUsuario).UseIdentityColumn(1,1);
                 a.HasOne(e => e.Escolaridade)
                     .WithMany(z => z.Usuarios)
                     .HasForeignKey(f => f.EscolaridadeId);
@@ -47,7 +47,7 @@ namespace Confitec.WebAPI.Infra.Data.Context
             modelBuilder.Entity<HistoricoEscolar>(a =>
             {
                 a.HasKey(E => E.IdHistoricoEscolar);
-                a.Property(E => E.IdHistoricoEscolar).UseIdentityColumn();
+                a.Property(E => E.IdHistoricoEscolar).UseIdentityColumn(1,1);
             });
 
 

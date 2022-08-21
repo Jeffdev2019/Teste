@@ -4,6 +4,7 @@ using Confitec.WebAPI.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Confitec_Test.Migrations
 {
     [DbContext(typeof(SQLServerContext))]
-    partial class SQLServerContextModelSnapshot : ModelSnapshot
+    [Migration("20220821181255_AddTabelasbaseOnBD")]
+    partial class AddTabelasbaseOnBD
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -38,28 +40,6 @@ namespace Confitec_Test.Migrations
                     b.HasKey("IdEscolaridade");
 
                     b.ToTable("TbEscolaridade");
-
-                    b.HasData(
-                        new
-                        {
-                            IdEscolaridade = 1,
-                            Descricao = "Infantil"
-                        },
-                        new
-                        {
-                            IdEscolaridade = 2,
-                            Descricao = "Fundamental"
-                        },
-                        new
-                        {
-                            IdEscolaridade = 3,
-                            Descricao = "Médio"
-                        },
-                        new
-                        {
-                            IdEscolaridade = 4,
-                            Descricao = "Superior"
-                        });
                 });
 
             modelBuilder.Entity("Confitec.WebAPI.Infra.Data.Model.HistoricoEscolar", b =>

@@ -25,10 +25,10 @@ namespace Confitec.WebAPI.Infra.Data.Model
         public string Email { get; set; }
         [Required]
         public DateTime DataNascimento { get; set; }
-        public int EscolaridadeId { get; set; }
-        public Escolaridade Escolaridade { get; set; }
-        public int HistoricoEscolarId { get; set; }
-        public HistoricoEscolar Historico { get; set; }
+        public int? EscolaridadeId { get; set; }
+        public Escolaridade? Escolaridade { get; set; }
+        public int? HistoricoEscolarId { get; set; }
+        public HistoricoEscolar? Historico { get; set; }
 
 
     }

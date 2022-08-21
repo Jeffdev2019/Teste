@@ -19,7 +19,9 @@ namespace Confitec.WebAPI.Infra.Data.Model
         [Required]
         [StringLength(50)]
         public string Nome { get; set; }
+        [MaxLength]
+        public string FileBase64 { get; set; }
         [Required]
-        public List<Usuario> Usuarios { get; set; }
+        public List<Usuario>? Usuarios { get; set; }
     }
 }

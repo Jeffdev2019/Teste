@@ -3,6 +3,8 @@ using Confitec.WebAPI.Aplication.Config;
 using Confitec.WebAPI.Domain.Interfaces.Repository;
 using Confitec.WebAPI.Infra.Data.Context;
 using Confitec.WebAPI.Infra.Repository;
+using Confitec_Test.Aplicaction.Service;
+using Confitec_Test.Domain.Interfaces.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,9 +18,15 @@ IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+#region Repositorios
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IEscolaridadeRepository, EscolaridadeRepository>();
 builder.Services.AddScoped<IHistoricoEscolarRepository, HistoricoEscolarRepository>();
+#endregion
+
+#region Service
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+#endregion
 
 // Add services to the container.
 

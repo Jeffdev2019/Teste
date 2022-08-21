@@ -13,7 +13,7 @@ namespace Confitec.WebAPI.Infra.Data.Model
         [StringLength(50)]
         public string Descricao { get; set; }
         [Required]
-        public List<Usuario> Usuarios { get; set; }
+        public List<Usuario>? Usuarios { get; set; }
 
     }
 }

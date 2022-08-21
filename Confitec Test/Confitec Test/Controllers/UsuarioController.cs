@@ -1,5 +1,5 @@
 ﻿using Confitec.WebAPI.Aplication.ValueObjects;
-using Confitec.WebAPI.Domain.Interfaces.Repository;
+using Confitec_Test.Domain.Interfaces.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Confitec_Test.Controllers
@@ -8,32 +8,24 @@ namespace Confitec_Test.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private IUsuarioRepository _IUsuarioRepository;
-        private IHistoricoEscolarRepository _IHistoricoEscolarRepository;
-        private IEscolaridadeRepository _IEscolaridadeRepository;
-        public UsuarioController(IUsuarioRepository UsuarioRepository, IHistoricoEscolarRepository HistoricoEscolarRepository, IEscolaridadeRepository IEscolaridadeRepository)
+        private IUsuarioService _usuarioService;
+
+        public UsuarioController(IUsuarioService usuarioService)
         {
-            _IUsuarioRepository = UsuarioRepository;
-            _IHistoricoEscolarRepository = HistoricoEscolarRepository;
-            _IEscolaridadeRepository = IEscolaridadeRepository;
+            _usuarioService = usuarioService;
         }
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UsuarioVO>>> FindAll()
         {
-            var user = await _IUsuarioRepository.FindAll();
-            user.ToList().ForEach(async a => 
-            {
-                a.Escolaridade =  _IEscolaridadeRepository.FindById(a.EscolaridadeId);
-                a.HistoricoEscolar =  _IHistoricoEscolarRepository.FindById(a.HistoricoEscolarId);
-            });
-            await Task.Delay(50);
+            var user = await _usuarioService.FindAll();            
             return Ok(user);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<UsuarioVO>> FindById(int id)
         {
-            var user = _IUsuarioRepository.FindById(id);
+            var user = _usuarioService.FindById(id);
             if (user == null) return NotFound();
 
             return Ok(user);
@@ -43,21 +35,21 @@ namespace Confitec_Test.Controllers
         public async Task<ActionResult<UsuarioVO>> Create(UsuarioVO vo)
         {
             if (vo == null) return BadRequest();
-            var user = await _IUsuarioRepository.Create(vo);
+            var user = await _usuarioService.Create(vo);
             return Ok(user);
         }
-
+        [HttpPut]
         public async Task<ActionResult<UsuarioVO>> Update(UsuarioVO vo)
         {
             if (vo == null) return BadRequest();
-            var user = await _IUsuarioRepository.Update(vo);
+            var user = await _usuarioService.Update(vo);
             return Ok(user);
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var status = await _IUsuarioRepository.Delete(id);
+            var status = await _usuarioService.Delete(id);
             if (!status) return BadRequest();
             return Ok(status);
         }
