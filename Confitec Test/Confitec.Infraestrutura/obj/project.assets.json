@@ -1794,11 +1794,25 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Confitec.Dominio/1.0.0": {
+      "Confitec.Aplicacao/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Confitec.Aplicacao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Confitec.Aplicacao.dll": {}
+        }
+      },
+      "Confitec.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "Confitec.Aplicacao": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Confitec.Dominio.dll": {}
@@ -6263,6 +6277,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Confitec.Aplicacao/1.0.0": {
+      "type": "project",
+      "path": "../Confitec.Aplicacao/Confitec.Aplicacao.csproj",
+      "msbuildProject": "../Confitec.Aplicacao/Confitec.Aplicacao.csproj"
     },
     "Confitec.Dominio/1.0.0": {
       "type": "project",

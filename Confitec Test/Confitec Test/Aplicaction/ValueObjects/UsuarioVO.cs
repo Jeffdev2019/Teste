@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Confitec.Dominio.ValueObjects
+namespace Confitec.WebAPI.Aplication.ValueObjects
 {
     public class UsuarioVO
     {
@@ -13,5 +13,7 @@ namespace Confitec.Dominio.ValueObjects
         public string SobreNome { get; set; }
         public string Email { get; set; }
         public DateTime DataNascimento { get; set; }
+        public int EscolaridadeId { get; set; }
+        public int HistoricoEscolarId { get; set; }
     }
 }

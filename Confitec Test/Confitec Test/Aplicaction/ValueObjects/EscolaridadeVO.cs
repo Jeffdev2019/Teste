@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Confitec.Dominio.ValueObjects
+namespace Confitec.WebAPI.Aplication.ValueObjects
 {
-    public class HistoricoEscolarVO
+    public class EscolaridadeVO
     {
         public int Id { get; set; }
-        public string Formato { get; set; }
-        public string Nome { get; set; }
+        public string Descricao { get; set; }
     }
 }

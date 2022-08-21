@@ -1889,36 +1889,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "Confitec.Dominio/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AutoMapper": "11.0.1"
-        },
-        "compile": {
-          "bin/placeholder/Confitec.Dominio.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Confitec.Dominio.dll": {}
-        }
-      },
-      "Confitec.Infraestrutura/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AutoMapper": "11.0.1",
-          "Confitec.Dominio": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.8",
-          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
-        },
-        "compile": {
-          "bin/placeholder/Confitec.Infraestrutura.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Confitec.Infraestrutura.dll": {}
-        }
       }
     }
   },
@@ -6742,25 +6712,15 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "Confitec.Dominio/1.0.0": {
-      "type": "project",
-      "path": "../Confitec.Dominio/Confitec.Dominio.csproj",
-      "msbuildProject": "../Confitec.Dominio/Confitec.Dominio.csproj"
-    },
-    "Confitec.Infraestrutura/1.0.0": {
-      "type": "project",
-      "path": "../Confitec.Infraestrutura/Confitec.Infraestrutura.csproj",
-      "msbuildProject": "../Confitec.Infraestrutura/Confitec.Infraestrutura.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
-      "Confitec.Infraestrutura >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Relational.Design >= 1.1.6",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "Swashbuckle.AspNetCore.Annotations >= 6.4.0",
@@ -6775,9 +6735,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec Test\\Confitec Test.csproj",
-      "projectName": "Confitec Test",
-      "projectPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec Test\\Confitec Test.csproj",
+      "projectUniqueName": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec Test\\Confitec.WebAPI.csproj",
+      "projectName": "Confitec.WebAPI",
+      "projectPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec Test\\Confitec.WebAPI.csproj",
       "packagesPath": "C:\\Users\\jeffe\\.nuget\\packages\\",
       "outputPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec Test\\obj\\",
       "projectStyle": "PackageReference",
@@ -6801,11 +6761,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj": {
-              "projectPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Infraestrutura\\Confitec.Infraestrutura.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -6833,6 +6789,10 @@
           "Microsoft.EntityFrameworkCore.Relational.Design": {
             "target": "Package",
             "version": "[1.1.6, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[6.0.8, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

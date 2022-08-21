@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Confitec.Aplicacao.ValueObjects;
 using Confitec.Infraestrutura.Data.Model;
 using System;
 using System.Collections.Generic;
@@ -18,8 +19,8 @@ namespace Confitec.Infraestrutura.Config
                 config.CreateMap<Usuario, UsuarioVO>();
                 config.CreateMap<EscolaridadeVO, Escolaridade>();
                 config.CreateMap<Escolaridade, EscolaridadeVO>();
-                config.CreateMap<HistoricoEscolaraVO, HistoricoEscolar>();
-                config.CreateMap<HistoricoEscolar, HistoricoEscolaraVO>();
+                config.CreateMap<HistoricoEscolarVO, HistoricoEscolar>();
+                config.CreateMap<HistoricoEscolar, HistoricoEscolarVO>();
             });
             return mappingConfig;
         }

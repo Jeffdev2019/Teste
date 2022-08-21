@@ -1,8 +1,8 @@
 using AutoMapper;
-using Confitec.Aplicacao.Config;
-using Confitec.Dominio.Interfaces.Repository;
-using Confitec.Infraestrutura.Data.Context;
-using Confitec.Infraestrutura.Repository;
+using Confitec.WebAPI.Aplication.Config;
+using Confitec.WebAPI.Domain.Interfaces.Repository;
+using Confitec.WebAPI.Infra.Data.Context;
+using Confitec.WebAPI.Infra.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,8 +35,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

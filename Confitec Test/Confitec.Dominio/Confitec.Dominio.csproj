@@ -14,4 +14,8 @@
     <Folder Include="Interfaces\Service\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Confitec.Aplicacao\Confitec.Aplicacao.csproj" />
+  </ItemGroup>
+
 </Project>

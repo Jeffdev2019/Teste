@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "UpYck2zu6E8sppeYXrjo7/4sr5a1g5gcsXUZH+B+EcI=",
-  "Source": "Confitec Test",
-  "BasePath": "_content/Confitec Test",
+  "Hash": "f9DJ2QgC/HLfgXoc/zAppGQPTPRTM9vwvhHtO7WJ9zA=",
+  "Source": "Confitec.WebAPI",
+  "BasePath": "_content/Confitec.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

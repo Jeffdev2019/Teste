@@ -1,4 +1,4 @@
-﻿using Confitec.Dominio.ValueObjects;
+﻿using Confitec.Aplicacao.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;

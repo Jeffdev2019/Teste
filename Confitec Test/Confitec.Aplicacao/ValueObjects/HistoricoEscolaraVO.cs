@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Confitec.Aplicacao.ValueObjects
 {
-    public class HistoricoEscolaraVO
+    public class HistoricoEscolarVO
     {
         public int Id { get; set; }
         public string Formato { get; set; }

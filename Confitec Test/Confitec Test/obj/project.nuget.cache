@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MFnRqmVrSix8JU/2/ZrIkeE3YPPe4ApcXWohnG0igf1VuGD9VqmfKwUX9HT1OGmsu3Tn+OIXy5yn1X8a9nPtmw==",
+  "dgSpecHash": "lVEZHo4++pFVBKL/xP8eEiwnJuVgnlDlNyVwy2neQxuoqsEn/m4hz6LBvcmR0PU8CqRJs2ToD0+H3lAtJU89ig==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec Test\\Confitec Test.csproj",
+  "projectFilePath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec Test\\Confitec.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeffe\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

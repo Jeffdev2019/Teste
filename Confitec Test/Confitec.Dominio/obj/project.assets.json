@@ -22,6 +22,19 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "Confitec.Aplicacao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "11.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Confitec.Aplicacao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Confitec.Aplicacao.dll": {}
+        }
       }
     }
   },
@@ -109,11 +122,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Confitec.Aplicacao/1.0.0": {
+      "type": "project",
+      "path": "../Confitec.Aplicacao/Confitec.Aplicacao.csproj",
+      "msbuildProject": "../Confitec.Aplicacao/Confitec.Aplicacao.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AutoMapper >= 11.0.1"
+      "AutoMapper >= 11.0.1",
+      "Confitec.Aplicacao >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -150,7 +169,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Aplicacao\\Confitec.Aplicacao.csproj": {
+              "projectPath": "C:\\Workspace\\Projetos\\Teste Confitec\\Teste\\Confitec Test\\Confitec.Aplicacao\\Confitec.Aplicacao.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

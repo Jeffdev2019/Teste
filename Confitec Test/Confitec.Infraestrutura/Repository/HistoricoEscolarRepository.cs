@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using Confitec.Aplicacao.ValueObjects;
 using Confitec.Dominio.Interfaces.Repository;
-using Confitec.Dominio.ValueObjects;
 using Confitec.Infraestrutura.Data.Context;
 using Confitec.Infraestrutura.Data.Model;
 using Microsoft.EntityFrameworkCore;
