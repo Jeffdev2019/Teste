@@ -1,0 +1,43 @@
+<header class="modal-default">
+    <div *ngIf="isNew" class='tt-modal'>NOVO</div>
+    <div *ngIf="isEdit" class='tt-modal'>EDITAR</div>
+    <div *ngIf="isView" class='tt-modal'>VISUALIZAR</div>
+    <mat-dialog-actions>
+        <button mat-button mat-dialog-close></button>
+    </mat-dialog-actions>
+</header>
+
+<div class="content-modal">
+    <h3> Detalhes</h3>
+    <form [formGroup]="formGroup" (ngSubmit)="submitForm()">
+        <div class="row">
+            <div class="col-12" *ngIf="isView">
+                <mat-form-field appearance="outline" class="w-100 ">
+                    <label>Nome</label>
+                    <input type="text" matInput formControlName="nome">           
+                    <label>Sobrenome</label>
+                    <input type="text" matInput formControlName="sobreNome">
+                    <label>Email</label>
+                    <input type="text" matInput formControlName="email">     
+                    <label>Data de Nascimento</label>
+                    <input type="text" matInput formControlName="dataNascimento">   
+                </mat-form-field>
+            </div>           
+        </div>
+
+        <div class="row">
+            <div class="col-12 btn">
+                <div class="btn-right">
+                    <button class="btn-unidas mat-elevation-z5" mat-flat-button mat-dialog-close color="primary">
+                        Cancelar
+                    </button>
+
+                    <button *ngIf="isEdit || isNew" class="btn-unidas mat-elevation-z5" type="submit" mat-flat-button
+                        color="primary" [disabled]="!formGroup.valid">
+                        Salvar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

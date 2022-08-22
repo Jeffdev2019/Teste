@@ -1,0 +1,130 @@
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.csproj.AssemblyReference.cache
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.AssemblyInfoInputs.cache
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.AssemblyInfo.cs
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.csproj.CoreCompileInputs.cache
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\appsettings.Development.json
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\appsettings.json
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Confitec.WebAPI.exe
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Confitec.WebAPI.deps.json
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Confitec.WebAPI.runtimeconfig.json
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Confitec.WebAPI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Confitec.WebAPI.pdb
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\AutoMapper.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Humanizer.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\staticwebassets.build.json
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\staticwebassets.development.json
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\scopedcss\bundle\Confitec.WebAPI.styles.css
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.csproj.CopyComplete
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\refint\Confitec.WebAPI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.pdb
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\Confitec.WebAPI.genruntimeconfig.cache
+C:\Workspace\Projetos\Teste Confitec\Teste\Confitec Test\Confitec Test\obj\Debug\net6.0\ref\Confitec.WebAPI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.csproj.AssemblyReference.cache
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.AssemblyInfoInputs.cache
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.AssemblyInfo.cs
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.csproj.CoreCompileInputs.cache
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\ref\Confitec.WebAPI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.pdb
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\appsettings.json
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Confitec.WebAPI.exe
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Confitec.WebAPI.deps.json
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Confitec.WebAPI.runtimeconfig.json
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Confitec.WebAPI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Confitec.WebAPI.pdb
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Humanizer.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\scopedcss\bundle\Confitec.WebAPI.styles.css
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.csproj.CopyComplete
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\refint\Confitec.WebAPI.dll
+C:\Workspace\Projetos\Teste Confitec\Teste\WebApi\ConfitecWebApi\obj\Debug\net6.0\Confitec.WebAPI.genruntimeconfig.cache

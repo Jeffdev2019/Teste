@@ -1,0 +1,28 @@
+<header class="modal-default">
+    <div *ngIf="isNew" class='tt-modal'>NOVO</div>
+    <div *ngIf="isEdit" class='tt-modal'>EDITAR</div>
+    <div *ngIf="isView" class='tt-modal'>VISUALIZAR</div>
+    <mat-dialog-actions>
+        <button mat-button mat-dialog-close></button>
+    </mat-dialog-actions>
+</header>
+
+<div class="content-modal">
+    <h3> Apagar Usuario</h3>
+    <P>Tem certeza que deseja apagar esse usuario?</P>
+
+    <div class="row">
+        <div class="col-12 btn">
+            <div class="btn-right">
+                <button class="btn-unidas mat-elevation-z5" mat-flat-button mat-dialog-close color="primary">
+                    Apagar
+                </button>
+
+                <button *ngIf="isEdit || isNew" class="btn-unidas mat-elevation-z5" type="submit" mat-flat-button
+                    color="primary" [disabled]="!formGroup.valid">
+                    Salvar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
