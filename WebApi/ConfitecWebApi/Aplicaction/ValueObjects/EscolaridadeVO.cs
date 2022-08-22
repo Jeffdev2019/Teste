@@ -8,7 +8,7 @@ namespace Confitec.WebAPI.Aplication.ValueObjects
 {
     public class EscolaridadeVO
     {
-        public int Id { get; set; }
+        public int IdEscolaridade { get; set; }
         public string Descricao { get; set; }
     }
 }
