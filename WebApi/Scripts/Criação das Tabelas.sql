@@ -19,7 +19,8 @@ CREATE TABLE TBHistoricoEscolar
 (
 	IdhistoricoEscolar int identity(1,1) primary key,
 	Formato varchar(10) not null,
-	Nome varchar(50) not null
+	Nome varchar(50) not null,
+	FileBase64 nvarchar(max) NOT NULL
 )
 
 ALTER TABLE TBUsuarios
